@@ -17,6 +17,7 @@
         ><button data-set="set-2">第二组</button
         ><button data-set="set-3">第三组</button>
       </nav>
+      <div class="download-bar"><span id="selected-count">已选 0 张</span><button id="download-selected" disabled>下载所选</button><button id="download-all">下载全部</button></div>
     </header>
     <main>
       <section id="gallery" class="gallery" aria-live="polite"></section>
@@ -30,6 +31,7 @@
       </figure>
       <button class="next" aria-label="下一张">›</button>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
     <script src="gallery.js"></script>
   </body>
 </html>
